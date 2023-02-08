@@ -6,5 +6,7 @@ I have parallelised the program using OpenMP + OpenMPI
 <b>How to run the program</b>
 <br>
 ```export OMP_NUM_THREADS=<number of threads> ```
+<br>
 ```mpic++ matrixPar.cc -o <binary file> -fopenmp ```
+<br>
 ```mpirun -n <number of processes> ./<binary file> <input file> ```
