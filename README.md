@@ -4,9 +4,6 @@ This program is an implementation of the power and shifted power methods used to
 I have parallelised the program using OpenMP + OpenMPI
 
 ## How to run the program
-<br>
-```export OMP_NUM_THREADS=<number of threads> ```
-<br>
-```mpic++ matrixPar.cc -o <binary file> -fopenmp ```
-<br>
-```mpirun -n <number of processes> ./ <binary file> <input file> ```
+<br>``export OMP_NUM_THREADS=<number of threads> ``
+<br>``mpic++ matrixPar.cc -o <binary file> -fopenmp ``
+<br>``mpirun -n <number of processes> ./<binary file> <input file> ``
